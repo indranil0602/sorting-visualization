@@ -1,0 +1,161 @@
+/*
+    ***************************************
+    DEVELOPER:  INDRANIL PAL
+    E-MAIL:     indranil.pal.0602@gmail.com
+    ***************************************
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #002b47;
+}
+
+.page_heading {
+  color: #ebf7ff;
+  width: 80%;
+  margin: 2% 0% 0% 6%;
+}
+
+nav {
+  color: #ebf7ff;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 60%;
+      grid-template-columns: 40% 60%;
+  -webkit-column-gap: 0%;
+          column-gap: 0%;
+  padding: 1.5% 2% 1% 2%;
+}
+
+nav .array-inputs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (20%)[5];
+      grid-template-columns: repeat(5, 20%);
+  place-content: center;
+  padding: 3% 1%;
+}
+
+nav .array-inputs #array_size {
+  margin: 2% 10%;
+  padding: 5% 0%;
+}
+
+nav .array-inputs #array_speed {
+  margin: 2% 10%;
+  padding: 2% 0%;
+}
+
+nav .array-inputs #array_generate {
+  background-color: #04ba59;
+  border: none;
+  outline: none;
+  color: white;
+  margin: 1.5% 2%;
+}
+
+nav .array-inputs #array_generate:hover {
+  cursor: pointer;
+}
+
+nav .header_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 0%;
+}
+
+nav .header_right .nav-heading {
+  padding: 3%;
+}
+
+nav .header_right .algos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (16.66667%)[6];
+      grid-template-columns: repeat(6, 16.66667%);
+  place-content: center;
+  padding: 2% 0%;
+}
+
+nav .header_right .algos button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  padding: 5% 0%;
+}
+
+nav .header_right .algos button:hover {
+  background-color: #4CAF50;;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_selected {
+  background-color: #008CBA;;
+  color: white;
+}
+
+nav .header_right .algos .butt_selected:hover {
+  background-color: #008CBA;;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_unselected:hover {
+  background-color: #4CAF50;;
+  cursor: pointer;
+}
+
+section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 60% 20%;
+      grid-template-columns: 20% 60% 20%;
+}
+
+section #Info_Cont1 {
+  padding: 20%;
+}
+
+section #array_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3%;
+  width: 100%;
+  height: 70vh;
+}
+
+section #Info_Cont2 {
+  padding: 20%;
+}
+
+.hide {
+  display: none;
+}
+
+/*@media (max-width: 480px)//Mobiles {}
+
+@media (min-width: 481px) and (max-width: 1250px)//Tablets {}
+
+@media (min-width: 1251px)//Laptops and up {}*/
+
+/*# sourceMappingURL=style.css.map */

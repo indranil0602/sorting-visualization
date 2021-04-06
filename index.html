@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+    ***************************************
+    DEVELOPER:  INDRANIL PAL
+    E-MAIL:     indranil.pal.0602@gmail.com
+    ***************************************
+-->
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sorting Visualizer</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <p class="page_heading">Sorting visualizer</p>
+            <nav>
+                <div>
+                    <div class="array-inputs">
+                        <button id="array_generate">New Array</button>
+                        <lebel > Array size</lebel>
+                        <input id="array_size" type="range" min=20 max=150 step=1 value=80>
+                        <lebel > Speed</lebel>
+                        <input id="array_speed" type="range" min=1 max=5 step=1 value=4>
+                    </div>
+                </div>
+                
+                <div class="header_right">
+                    <div class="algos">
+                        <button >Bubble</button>
+                        <button >Selection</button>
+                        <button >Insertion</button>
+                        <button >Merge</button>
+                        <button >Quick</button>
+                        <button >Heap</button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section>
+            <div id="Info_Cont1"></div>
+            <div id="array_container"></div>
+            <div id="Info_Cont2"></div>
+        </section>
+
+        <footer></footer>
+
+        <script src="./scripts/main.js"></script>   <!--This should be at the end of body and should be loaded before sorting .js files-->
+        <script src="./scripts/visualizations.js"></script>  <!--This should be loaded after main.js-->
+        <script src="./scripts/bubble_sort.js"></script>
+        <script src="./scripts/selection_sort.js"></script>
+        <script src="./scripts/insertion_sort.js"></script>
+        <script src="./scripts/merge_sort.js"></script>
+        <script src="./scripts/quick_sort.js"></script>
+        <script src="./scripts/heap_sort.js"></script>
+    </body>
+</html>
